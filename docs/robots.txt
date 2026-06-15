@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nexttofly.github.io/free-llm-keys/sitemap.xml

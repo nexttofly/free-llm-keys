@@ -1,0 +1,988 @@
+import importlib.util
+import io
+import tempfile
+import unittest
+import urllib.error
+from datetime import datetime
+from pathlib import Path
+from subprocess import CompletedProcess
+from unittest import mock
+
+
+def load_publish_keys_module():
+    module_path = Path(__file__).resolve().parents[1] / "scripts" / "publish_keys.py"
+    spec = importlib.util.spec_from_file_location("publish_keys", module_path)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    return module
+
+
+publish_keys = load_publish_keys_module()
+
+
+class PublishKeysTests(unittest.TestCase):
+    def write_temp_readme(self, content: str) -> Path:
+        tmpdir = tempfile.TemporaryDirectory()
+        self.addCleanup(tmpdir.cleanup)
+        path = Path(tmpdir.name) / "README.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_api_request_retries_transient_bad_gateway(self):
+        class FakeResponse:
+            def __enter__(self):
+                return self
+
+            def __exit__(self, exc_type, exc, tb):
+                return False
+
+            def read(self):
+                return b'{"ok": true}'
+
+        transient = urllib.error.HTTPError(
+            url="https://example.test/keys/status",
+            code=502,
+            msg="Bad Gateway",
+            hdrs=None,
+            fp=io.BytesIO(b"error code: 502"),
+        )
+
+        with mock.patch.object(publish_keys, "KM_TOKEN", "test-token"), \
+             mock.patch.object(publish_keys, "KM_URL", "https://example.test"), \
+             mock.patch.object(publish_keys.urllib.request, "urlopen", side_effect=[transient, FakeResponse()]) as urlopen:
+            result = publish_keys.api_request("POST", "/keys/status", {"keys": ["sk-test"]}, retry_sleep_seconds=0)
+
+        self.assertEqual(result, {"ok": True})
+        self.assertEqual(urlopen.call_count, 2)
+
+    def test_clean_expired_keys_skips_cleanup_when_status_api_is_temporarily_unavailable(self):
+        readme = self.write_temp_readme("| `sk-existing111` | deepseek-chat | active |\n")
+
+        with mock.patch.object(publish_keys, "README_PATH", str(readme)), \
+             mock.patch.object(publish_keys, "api_request", side_effect=RuntimeError("POST /keys/status failed: 502")):
+            deleted, warn = publish_keys.clean_expired_keys()
+
+        self.assertEqual(deleted, [])
+        self.assertEqual(warn, [])
+
+    def test_update_readme_counts_only_table_key_rows_for_badge(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/Available_Keys-0-brightgreen?style=for-the-badge)]()\n"
+            "\n"
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-03-24 06:30 (UTC+8)\n"
+            "\n"
+            "### DeepSeek `03-24 06:30`\n"
+            "\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires |\n"
+            "|-----|-------|--------|--------|------------|---------|\n"
+            "| `sk-oldkey123` | deepseek-chat | 🆕 New | $50 | 5 RPM | 2026-03-25 |\n"
+            "\n"
+            "API tokens (`sk-xxx`) issued by our own platform.\n"
+            "\n"
+            "## 📅 Changelog\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertIn("Available_Keys-1-brightgreen", updated)
+
+    def test_update_readme_preserves_description_column_for_multi_model_group(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-03-24 06:30 (UTC+8)\n"
+            "\n"
+            "### Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate) `03-24 06:30`\n"
+            "\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-existing111` | smart-chat | 🆕 New | $30 | 10 RPM | 2026-03-25 | Auto-selects best model |\n"
+            "\n"
+            "## 📅 Changelog\n"
+        )
+
+        grouped_keys = {
+            "Multi-Model (GPT-5.4 / Claude / DeepSeek / Gemini auto-rotate)": [
+                {
+                    "key": "sk-newmulti222",
+                    "model": "flagship-chat",
+                    "budget": "$30",
+                    "rpm": "10 RPM",
+                    "expires": "2026-03-26",
+                    "use_case": "GPT-5.4 / Claude rotate",
+                }
+            ]
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertIn(
+            "| `sk-newmulti222` | flagship-chat | 🆕 New | $30 | 10 RPM | 2026-03-26 | GPT-5.4 / Claude rotate |",
+            updated,
+        )
+
+    def test_update_readme_removes_blank_line_between_table_header_and_first_row(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-03-24 06:30 (UTC+8)\n"
+            "\n"
+            "### GPT-5.4 / GPT-5.4-mini `04-06 06:30`\n"
+            "\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires |\n"
+            "|-----|-------|--------|--------|------------|---------|\n"
+            "\n"
+            "| `sk-old111` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-04-08 |\n"
+            "\n"
+            "## 📅 Changelog\n"
+        )
+
+        grouped_keys = {
+            "GPT-5.4 / GPT-5.4-mini": [
+                {
+                    "key": "sk-new222",
+                    "model": "gpt-5.4-mini",
+                    "budget": "$30",
+                    "rpm": "20 RPM",
+                    "expires": "2026-04-08",
+                    "use_case": "",
+                }
+            ]
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertNotIn("|-----|-------|--------|--------|------------|---------|\n\n| `sk-old111`", updated)
+
+    def test_update_readme_does_not_duplicate_identical_changelog_line_for_same_day(self):
+        today = datetime.now().strftime("%Y-%m-%d")
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-03-24 06:30 (UTC+8)\n"
+            "\n"
+            "### GPT-5.4 `03-24 06:30`\n"
+            "\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires |\n"
+            "|-----|-------|--------|--------|------------|---------|\n"
+            "| `sk-existing111` | gpt-5.4 | 🆕 New | $50 | 5 RPM | 2026-03-25 |\n"
+            "\n"
+            "## 📅 Changelog\n"
+            "\n"
+            f"### {today}\n"
+            "- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired\n"
+        )
+
+        grouped_keys = {
+            "GPT-5.4": [
+                {
+                    "key": "sk-one111",
+                    "model": "gpt-5.4",
+                    "budget": "$50",
+                    "rpm": "5 RPM",
+                    "expires": "2026-03-25",
+                    "use_case": "",
+                }
+            ]
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        today_section = updated.split(f"### {today}\n", 1)[1].split("\n### ", 1)[0]
+        self.assertEqual(today_section.count("- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired"), 1)
+
+    def test_update_readme_wraps_changelog_in_details_block(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-03-24 06:30 (UTC+8)\n"
+            "\n"
+            "## 📅 Changelog\n"
+            "\n"
+            "### 2026-03-24\n"
+            "- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired\n"
+            "\n"
+            "---\n"
+            "\n"
+            "## 📈 Star History\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertIn("## 📅 Changelog\n\n<details>", updated)
+        self.assertIn("<summary><b>Show changelog history</b></summary>", updated)
+        self.assertIn("### 2026-03-24\n- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired", updated)
+        self.assertIn("</details>\n\n---\n\n## 📈 Star History", updated)
+
+    def test_update_readme_appends_changelog_inside_existing_details_block(self):
+        today = datetime.now().strftime("%Y-%m-%d")
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-03-24 06:30 (UTC+8)\n"
+            "\n"
+            "## 📅 Changelog\n"
+            "\n"
+            "<details>\n"
+            "<summary><b>Show changelog history</b></summary>\n"
+            "\n"
+            f"### {today}\n"
+            "- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired\n"
+            "</details>\n"
+            "\n"
+            "---\n"
+            "\n"
+            "## 📈 Star History\n"
+        )
+
+        grouped_keys = {
+            "GPT-5.4": [
+                {
+                    "key": "sk-two222",
+                    "model": "gpt-5.4",
+                    "budget": "$50",
+                    "rpm": "5 RPM",
+                    "expires": "2026-03-25",
+                    "use_case": "",
+                }
+            ]
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=["sk-old333"], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertIn("<details>\n<summary><b>Show changelog history</b></summary>", updated)
+        self.assertIn(f"### {today}", updated)
+        self.assertIn("- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired", updated)
+        self.assertIn(f"- 🆕 Added 1 keys (gpt-5.4), cleaned 1 expired\n- 🆕 Added 1 keys (gpt-5.4), cleaned 0 expired", updated)
+
+
+    def test_update_readme_puts_stable_defaults_before_premium_gpt_and_claude(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/Available_Keys-1-brightgreen?style=for-the-badge)]()\n"
+            "\n"
+            "## 📋 Available Keys\n"
+            "\n"
+            "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n"
+            "\n"
+            "> **[Verify your key here](https://nexttofly.github.io/free-llm-keys/)** — one-click check if a key still works.\n"
+            "\n"
+            "### DeepSeek `04-25 13:30`\n"
+            "\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n"
+            "\n"
+            "## 📅 Changelog\n"
+        )
+
+        grouped_keys = {
+            "GPT-5.5": [
+                {"key": "sk-gpt111", "model": "gpt-5.5", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "GPT flagship"}
+            ],
+            "Claude Opus 4.7": [
+                {"key": "sk-claude111", "model": "claude-opus-4-7", "budget": "$20", "rpm": "5 RPM", "expires": "2026-04-27", "use_case": "Claude flagship"}
+            ],
+            "Gemini": [
+                {"key": "sk-gemini111", "model": "gemini-2.5-flash", "budget": "$20", "rpm": "20 RPM", "expires": "2026-04-27", "use_case": "Gemini fast"}
+            ],
+            publish_keys.MULTI_MODEL_GROUP_EN: [
+                {"key": "sk-smart111", "model": "smart-chat", "budget": "$20", "rpm": "10 RPM", "expires": "2026-04-27", "use_case": "Auto-route"}
+            ],
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        gpt_pos = updated.index("### GPT-5.5")
+        claude_pos = updated.index("### Claude Opus 4.7")
+        gemini_pos = updated.index("### Gemini")
+        deepseek_pos = updated.index("### DeepSeek")
+        multi_pos = updated.index("### Multi-Model")
+        self.assertLess(gpt_pos, claude_pos)
+        self.assertLess(claude_pos, gemini_pos)
+        self.assertLess(gemini_pos, deepseek_pos)
+        self.assertLess(deepseek_pos, multi_pos)
+        self.assertIn("### Featured models", updated)
+        self.assertIn("| `sk-smart111` | smart-chat | 🆕 New | $20 | 10 RPM | 2026-04-27 | Auto-route |", updated)
+        self.assertNotIn("|-----|-------|--------|--------|------------|---------|-------------|\n\n|", updated)
+
+
+
+
+    def test_update_readme_places_cn_multi_model_before_media_section(self):
+        readme = self.write_temp_readme(
+            "## 📋 可用 Key 列表\n\n"
+            "> **[在这里验证你的 Key](https://nexttofly.github.io/free-llm-keys/)** — 一键检查 Key 是否可用。\n\n"
+            "### DeepSeek `04-25 13:30`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n"
+            "|-----|------|------|------|---------|---------|------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 新增 | $20 | 20 RPM | 2026-04-26 | 稳定 |\n\n"
+            "### 图像 / 语音 / 向量化 `04-25 13:30`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 |\n"
+            "|-----|------|------|------|---------|---------|\n"
+            "| `sk-embed111` | embed-english-v3.0 | 🆕 新增 | $50 | 5 RPM | 2026-04-27 |\n\n"
+            "## 📅 Changelog\n"
+        )
+        grouped_keys = {
+            publish_keys.MULTI_MODEL_GROUP_EN: [
+                {"key": "sk-smartcn", "model": "smart-chat", "budget": "$100", "rpm": "10 RPM", "expires": "2026-04-27", "use_case_cn": "自动路由"}
+            ]
+        }
+
+        publish_keys.update_readme(str(readme), grouped_keys, deleted_keys=[], warn_keys=[], lang="cn")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertLess(updated.index("### 多模型聚合"), updated.index("### 图像 / 语音 / 向量化"))
+
+    def test_update_readme_removes_duplicate_start_here_blocks(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> **[Verify your key here](https://nexttofly.github.io/free-llm-keys/)** — one-click check if a key still works.\n\n"
+            "### Start here: GPT → Claude → DeepSeek\n\n"
+            "- `gpt-5.5` — best first impression for general chat and coding.\n"
+            "- `claude-sonnet-4-6` — best for writing, code review, and long answers.\n"
+            "- `deepseek-chat` — fast, stable, and great for everyday use.\n\n"
+            "If a fresh single-model key is temporarily unavailable, use `flagship-chat` or `smart-chat` from the multi-model section.\n\n"
+            "---\n\n"
+            "### DeepSeek `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-deepseek111` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-04-26 | Stable |\n\n"
+            "### Start here: DeepSeek → smart-chat → Gemini\n\n"
+            "- `deepseek-chat` — fast, stable, and best for everyday use.\n"
+            "- `smart-chat` — auto-routes across currently healthy low-cost chat backends.\n"
+            "- `gemini-2.5-flash` — fast Gemini option for long-context general chat.\n\n"
+            "Use `gpt-5.5` or `claude-sonnet-4-6` when you need premium quality; they are intentionally not the default free high-volume path.\n\n"
+            "---\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertNotIn("### Start here: GPT → Claude → DeepSeek", updated)
+        self.assertEqual(updated.count("### Featured models"), 1)
+        self.assertLess(updated.index("### Featured models"), updated.index("### DeepSeek"))
+        self.assertNotIn("### GPT-5.5", updated)
+
+    def test_update_readme_renders_full_model_shelf_with_restocking_rows(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n\n"
+            "### DeepSeek `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "\n"
+            "### GPT-5.5 `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "### Gemini `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |\n\n"
+            "### Kimi `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "### Image / Audio / Embedding `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires |\n"
+            "|-----|-------|--------|--------|------------|---------|\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        ordered_titles = ["### Gemini"]
+        positions = [updated.index(title) for title in ordered_titles]
+        self.assertEqual(positions, sorted(positions))
+        self.assertNotIn("<summary><b>Temporarily unavailable models</b></summary>", updated)
+        self.assertNotIn("| Restocking |", updated)
+        self.assertNotIn("### GPT-5.5", updated)
+        self.assertNotIn("### Claude Opus 4.7", updated)
+        self.assertNotIn("### DeepSeek", updated)
+        self.assertNotIn("### Multi-Model", updated)
+        self.assertNotIn("### Kimi", updated)
+        self.assertNotIn("### Image / Audio / Embedding", updated)
+        self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
+
+    def test_update_readme_removes_orphan_empty_model_sections_outside_key_list(self):
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-25 13:30 (UTC+8)\n\n"
+            "### Gemini `04-25 13:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |\n\n"
+            "## 🚀 How to Use\n\n"
+            "Use the keys above.\n\n"
+            "---\n\n"
+            "### GPT-5.5 `04-24 19:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "---\n\n"
+            "### Claude Sonnet `04-24 19:30`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n\n"
+            "---\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertEqual(updated.count("### GPT-5.5"), 0)
+        self.assertNotIn("### Claude Sonnet", updated)
+        self.assertIn("## 🚀 How to Use", updated)
+        self.assertIn("| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-26 | Fast |", updated)
+
+    def test_extract_bad_keys_from_status_handles_results_dict(self):
+        payload = {
+            "results": {
+                "sk-good": {"status": "active"},
+                "sk-revoked": {"status": "revoked"},
+                "sk-expired": {"status": "expired"},
+                "sk-warning": {"status": "rate_limited"},
+            }
+        }
+
+        deleted, warned = publish_keys.extract_bad_keys_from_status(payload)
+
+        self.assertEqual(deleted, ["sk-revoked", "sk-expired"])
+        self.assertEqual(warned, ["sk-warning"])
+
+    def test_build_featured_key_requests_fills_missing_priority_models(self):
+        active_keys = [
+            {"models": ["deepseek-chat"]},
+            {"models": ["gpt-5.5"]},
+        ]
+        available_models = {"gpt-5.5", "claude-opus-4-7", "deepseek-chat", "smart-chat", "gemini-2.5-flash"}
+
+        requests = publish_keys.build_featured_key_requests(active_keys, available_models, remaining_budget_usd=2000)
+
+        requested_models = [req["models"][0] for req in requests]
+        # Each featured group targets 6 keys. One deepseek-chat and one
+        # gpt-5.5 already exist, so we should request 5 more of each plus the
+        # full 6 for groups without any active keys yet.
+        self.assertEqual(requested_models.count("deepseek-chat"), 5)
+        self.assertEqual(requested_models.count("gpt-5.5"), 5)
+        self.assertEqual(requested_models.count("claude-opus-4-7"), 6)
+        self.assertEqual(requested_models.count("smart-chat"), 6)
+        self.assertEqual(requested_models.count("gemini-2.5-flash"), 6)
+        self.assertNotIn("gpt-5.4", requested_models)
+        # FEATURED_GROUP_ORDER puts GPT-5.5 first, so the missing 5 gpt-5.5
+        # requests should lead the batch.
+        self.assertEqual(requested_models[:5], ["gpt-5.5"] * 5)
+        self.assertTrue(all(req["budget_usd"] <= 50 for req in requests))
+
+    def test_select_recommended_model_rejects_other_chat_families(self):
+        recommended_models = [
+            {"id": "gemini-2.5-pro", "recommended": True, "type": "chat"},
+            {"id": "deepseek-v4-pro", "recommended": True, "type": "chat"},
+            {"id": "kimi-k2.5", "recommended": True, "type": "chat"},
+        ]
+        direct, by_capability = publish_keys.recommended_model_candidates(recommended_models)
+
+        self.assertIsNone(publish_keys.select_recommended_model(publish_keys.MODEL_TO_SPEC["gpt-5.5"], direct, by_capability))
+        self.assertIsNone(publish_keys.select_recommended_model(publish_keys.MODEL_TO_SPEC["claude-opus-4-7"], direct, by_capability))
+
+        requests = publish_keys.build_featured_key_requests([], recommended_models, remaining_budget_usd=2000)
+        self.assertNotIn("GPT-5.5", {request["_display_group"] for request in requests})
+        self.assertNotIn("Claude Opus 4.7", {request["_display_group"] for request in requests})
+
+    def test_select_recommended_model_allows_same_family_alternatives(self):
+        recommended_models = [
+            {"id": "openai/gpt-5.5", "recommended": True, "type": "chat"},
+            {"id": "anthropic/claude-opus-4.7", "recommended": True, "type": "chat"},
+            {"id": "gemini-2.5-pro", "recommended": True, "type": "chat"},
+            {"id": "deepseek-v4-pro", "recommended": True, "type": "chat"},
+        ]
+        direct, by_capability = publish_keys.recommended_model_candidates(recommended_models)
+
+        self.assertEqual(
+            publish_keys.select_recommended_model(publish_keys.MODEL_TO_SPEC["gpt-5.5"], direct, by_capability),
+            "openai/gpt-5.5",
+        )
+        self.assertEqual(
+            publish_keys.select_recommended_model(publish_keys.MODEL_TO_SPEC["claude-opus-4-7"], direct, by_capability),
+            "anthropic/claude-opus-4.7",
+        )
+        self.assertEqual(
+            publish_keys.select_recommended_model(publish_keys.MODEL_TO_SPEC["gemini-2.5-flash"], direct, by_capability),
+            "gemini-2.5-pro",
+        )
+        self.assertEqual(
+            publish_keys.select_recommended_model(publish_keys.MODEL_TO_SPEC["deepseek-chat"], direct, by_capability),
+            "deepseek-v4-pro",
+        )
+
+    def test_sync_repo_before_publish_runs_pull_rebase(self):
+        calls = []
+
+        def fake_run(cmd, capture_output=True, text=True):
+            calls.append(cmd)
+            return CompletedProcess(cmd, 0, stdout="", stderr="")
+
+        with mock.patch.object(publish_keys.subprocess, "run", side_effect=fake_run):
+            self.assertTrue(publish_keys.sync_repo_before_publish())
+
+        self.assertEqual(
+            calls,
+            [["git", "-C", publish_keys.REPO_PATH, "pull", "--rebase", "origin", "main"]],
+        )
+
+    def test_git_commit_and_push_does_not_use_stash_or_pull_during_commit_phase(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            repo = Path(tmpdir)
+            (repo / "README.md").write_text("clean\n", encoding="utf-8")
+            (repo / "README_CN.md").write_text("clean\n", encoding="utf-8")
+
+            calls = []
+
+            def fake_run(cmd, capture_output=True, text=False):
+                calls.append(cmd)
+                if cmd[-2:] == ["diff", "--cached"] or cmd[-3:] == ["diff", "--cached", "--quiet"]:
+                    return CompletedProcess(cmd, 1, stdout="", stderr="")
+                if cmd[-1] == "push":
+                    return CompletedProcess(cmd, 0, stdout="", stderr="")
+                return CompletedProcess(cmd, 0, stdout="", stderr="")
+
+            with mock.patch.object(publish_keys, "REPO_PATH", str(repo)), \
+                 mock.patch.object(publish_keys, "README_PATH", str(repo / "README.md")), \
+                 mock.patch.object(publish_keys, "README_CN_PATH", str(repo / "README_CN.md")), \
+                 mock.patch.object(publish_keys.subprocess, "run", side_effect=fake_run):
+                publish_keys.git_commit_and_push(1, 0)
+
+        flattened = [" ".join(cmd) for cmd in calls]
+        self.assertFalse(any(" stash" in f" {cmd}" for cmd in flattened))
+        self.assertFalse(any(" pull --rebase" in cmd for cmd in flattened))
+        self.assertTrue(any(cmd.endswith(" commit -m feat: +1 keys, -0 expired") is False for cmd in flattened))
+
+    def test_git_commit_and_push_skips_commit_when_readme_contains_conflict_markers(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            repo = Path(tmpdir)
+            (repo / "README.md").write_text(
+                "<<<<<<< Updated upstream\nleft\n=======\nright\n>>>>>>> Stashed changes\n",
+                encoding="utf-8",
+            )
+            (repo / "README_CN.md").write_text("clean\n", encoding="utf-8")
+
+            calls = []
+
+            def fake_run(cmd, capture_output=True, text=False):
+                calls.append(cmd)
+                return CompletedProcess(cmd, 0, stdout="", stderr="")
+
+            with mock.patch.object(publish_keys, "REPO_PATH", str(repo)), \
+                 mock.patch.object(publish_keys, "README_PATH", str(repo / "README.md")), \
+                 mock.patch.object(publish_keys, "README_CN_PATH", str(repo / "README_CN.md")), \
+                 mock.patch.object(publish_keys.subprocess, "run", side_effect=fake_run):
+                publish_keys.git_commit_and_push(1, 0)
+
+        flattened = [" ".join(cmd) for cmd in calls]
+        self.assertFalse(any(" commit " in f" {cmd} " for cmd in flattened))
+        self.assertFalse(any(" push" in f" {cmd}" for cmd in flattened))
+
+    def test_main_cleanup_only_skips_creation_and_commits_cleanup_changes(self):
+        fake_grouped = {
+            "GPT-5.5": [
+                {"key": "sk-active1", "model": "gpt-5.5", "budget": "$20", "rpm": "5 RPM",
+                 "expires": "2026-05-02", "use_case": "Premium GPT flagship",
+                 "use_case_cn": "GPT 旗舰模型"}
+            ]
+        }
+        with mock.patch("sys.argv", ["publish_keys.py", "--cleanup-only"]), \
+             mock.patch.object(publish_keys, "KM_TOKEN", "token"), \
+             mock.patch.object(publish_keys, "sync_repo_before_publish", return_value=True), \
+             mock.patch.object(publish_keys, "clean_expired_keys", return_value=(["sk-old1"], [])), \
+             mock.patch.object(publish_keys, "sync_from_active", return_value=fake_grouped), \
+             mock.patch.object(publish_keys, "update_readme") as update_readme, \
+             mock.patch.object(publish_keys, "git_commit_and_push") as git_commit_and_push, \
+             mock.patch.object(publish_keys, "log_usage_stats") as log_usage_stats, \
+             mock.patch.object(publish_keys, "check_budget") as check_budget, \
+             mock.patch.object(publish_keys, "fetch_recommended_models") as fetch_recommended_models, \
+             mock.patch.object(publish_keys, "create_keys") as create_keys:
+            publish_keys.main()
+
+        self.assertEqual(update_readme.call_count, 2)
+        update_readme.assert_any_call(publish_keys.README_PATH, fake_grouped, ["sk-old1"], [], lang="en")
+        update_readme.assert_any_call(publish_keys.README_CN_PATH, fake_grouped, ["sk-old1"], [], lang="cn")
+        # The row surfaced by sync_from_active is counted in the commit message.
+        git_commit_and_push.assert_called_once_with(1, 1)
+        log_usage_stats.assert_called_once()
+        check_budget.assert_not_called()
+        fetch_recommended_models.assert_not_called()
+        create_keys.assert_not_called()
+
+    def test_main_publishes_cleanup_even_when_budget_is_exhausted(self):
+        with mock.patch("sys.argv", ["publish_keys.py"]), \
+             mock.patch.object(publish_keys, "KM_TOKEN", "token"), \
+             mock.patch.object(publish_keys, "sync_repo_before_publish", return_value=True), \
+             mock.patch.object(publish_keys, "clean_expired_keys", return_value=(["sk-old1", "sk-old2"], [])), \
+             mock.patch.object(publish_keys, "sync_from_active", return_value={}), \
+             mock.patch.object(publish_keys, "check_budget", return_value=0), \
+             mock.patch.object(publish_keys, "update_readme") as update_readme, \
+             mock.patch.object(publish_keys, "git_commit_and_push") as git_commit_and_push, \
+             mock.patch.object(publish_keys, "log_usage_stats") as log_usage_stats, \
+             mock.patch.object(publish_keys, "fetch_recommended_models") as fetch_recommended_models, \
+             mock.patch.object(publish_keys, "create_keys") as create_keys:
+            publish_keys.main()
+
+        self.assertEqual(update_readme.call_count, 2)
+        update_readme.assert_any_call(publish_keys.README_PATH, {}, ["sk-old1", "sk-old2"], [], lang="en")
+        update_readme.assert_any_call(publish_keys.README_CN_PATH, {}, ["sk-old1", "sk-old2"], [], lang="cn")
+        git_commit_and_push.assert_called_once_with(0, 2)
+        log_usage_stats.assert_called_once()
+        fetch_recommended_models.assert_not_called()
+        create_keys.assert_not_called()
+
+    def test_sync_from_active_skips_keys_already_rendered_in_readme(self):
+        # Keys already present in README should NOT be re-inserted — otherwise
+        # insert_sections would paint duplicate rows. Only genuinely missing
+        # active server keys should come back.
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "### GPT-5.5 `01-01 00:00`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-existing1` | gpt-5.5 | 🆕 New | $20 | 5 RPM | 2026-05-02 | Premium GPT flagship |\n\n"
+        )
+        readme_cn = self.write_temp_readme(
+            "## 📋 可用 Key 列表\n\n"
+            "### GPT-5.5 `01-01 00:00`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n"
+            "|-----|------|------|------|---------|---------|------|\n"
+            "| `sk-existing1` | gpt-5.5 | 🆕 新增 | $20 | 5 RPM | 2026-05-02 | GPT 旗舰模型 |\n\n"
+        )
+
+        active = [
+            {"key": "sk-existing1", "models": ["gpt-5.5"], "budget_usd": 20,
+             "expires_at": "2026-05-02T11:00:00+00:00", "rpm": 5},
+            {"key": "sk-newopus1", "models": ["claude-opus-4-7"], "budget_usd": 20,
+             "expires_at": "2026-05-02T11:00:00+00:00", "rpm": 5},
+            {"key": "sk-unknownmodel", "models": ["gpt-4o"], "budget_usd": 20,
+             "expires_at": "2026-05-02T11:00:00+00:00", "rpm": 5},
+        ]
+
+        with mock.patch.object(publish_keys, "README_PATH", str(readme)), \
+             mock.patch.object(publish_keys, "README_CN_PATH", str(readme_cn)), \
+             mock.patch.object(publish_keys, "list_active_keys", return_value=active):
+            grouped = publish_keys.sync_from_active()
+
+        self.assertNotIn("GPT-5.5", grouped)  # existing key ignored
+        self.assertIn("Claude Opus 4.7", grouped)
+        opus_rows = grouped["Claude Opus 4.7"]
+        self.assertEqual(len(opus_rows), 1)
+        self.assertEqual(opus_rows[0]["key"], "sk-newopus1")
+        self.assertEqual(opus_rows[0]["budget"], "$20")
+        self.assertEqual(opus_rows[0]["rpm"], "5 RPM")
+        self.assertEqual(opus_rows[0]["use_case"], "Claude Opus flagship")
+        # Unknown / off-shelf models (gpt-4o) are dropped.
+        self.assertNotIn("gpt-4o", {row["model"] for rows in grouped.values() for row in rows})
+
+    def test_update_readme_removes_orphan_shelf_sections_even_when_filled(self):
+        # Regression for a cc77a47-era rendering glitch where a fully-populated
+        # Claude Opus block ended up duplicated after the License section.
+        # Those trailing blocks must be stripped regardless of content.
+        readme = self.write_temp_readme(
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-30 19:09 (UTC+8)\n\n"
+            "### Gemini `04-30 19:09`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-g` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-05-02 | Fast |\n\n"
+            "## 🚀 How to Use\n\n"
+            "Use the keys above.\n\n"
+            "## 📜 License\n\n"
+            "[MIT License](./LICENSE)\n\n"
+            "### Claude Opus 4.7 `04-30 19:03`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-orphan1` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-02 | Opus |\n"
+            "| `sk-orphan2` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-05-02 | Opus |\n\n"
+            "---\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertEqual(updated.count("### Claude Opus 4.7"), 0)
+        self.assertNotIn("sk-orphan1", updated)
+        self.assertNotIn("sk-orphan2", updated)
+
+
+    def test_update_readme_uses_smart_chat_fallback_for_empty_flagship_groups(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/Available_Keys-0-brightgreen?style=for-the-badge)]()\n\n"
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-04-30 17:52 (UTC+8)\n\n"
+            "### Gemini `04-30 17:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gemini111` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-04-30 | Fast |\n\n"
+            f"### {publish_keys.MULTI_MODEL_GROUP_EN} `04-30 17:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-smartfallback` | smart-chat | 🆕 New | $50 | 10 RPM | 2026-05-02 | Auto-routes |\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+
+        # Empty shelf groups stay hidden; the only rendered rows are real keys.
+        for group_title in ("### GPT-5.5", "### Claude Opus 4.7", "### Kimi", "### Image / Audio / Embedding"):
+            self.assertNotIn(group_title, updated)
+        self.assertNotIn("smart-chat (gpt-5.5 fallback)", updated)
+        self.assertNotIn("smart-chat (claude-opus-4-7 fallback)", updated)
+        self.assertNotIn("🛟 Fallback", updated)
+        self.assertNotIn(publish_keys.FALLBACK_MARKER, updated)
+        self.assertNotIn("| Restocking | gpt-5.5 |", updated)
+        self.assertNotIn("| Restocking | claude-opus-4-7 |", updated)
+
+        # Badge must still count unique keys: 1 smart-chat + 1 gemini = 2.
+        self.assertIn("Available_Keys-2-brightgreen", updated)
+
+    def test_update_readme_drops_cross_family_rows_from_model_shelves(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/Available_Keys-0-brightgreen?style=for-the-badge)]()\n\n"
+            "## 📋 Available Keys\n\n"
+            "> ⏰ Last updated: 2026-06-04 15:52 (UTC+8)\n\n"
+            "### GPT-5.5 `06-04 15:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-gptbad` | gemini-2.5-pro | 🆕 New | $20 | 5 RPM | 2026-06-05 | KM recommended alternative for Premium GPT flagship |\n\n"
+            "### Claude Opus 4.7 `06-04 15:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-claudebad` | gemini-2.5-pro | 🆕 New | $20 | 5 RPM | 2026-06-05 | KM recommended alternative for Claude Opus flagship |\n\n"
+            "### Gemini `06-04 15:52`\n\n"
+            "| Key | Model | Status | Budget | Rate Limit | Expires | Description |\n"
+            "|-----|-------|--------|--------|------------|---------|-------------|\n"
+            "| `sk-geminigood` | gemini-2.5-pro | 🆕 New | $20 | 20 RPM | 2026-06-05 | Gemini Pro |\n\n"
+            "## 🚀 How to Use\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="en")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertNotIn("sk-gptbad", updated)
+        self.assertNotIn("sk-claudebad", updated)
+        self.assertNotIn("KM recommended alternative for Premium GPT flagship", updated)
+        self.assertNotIn("KM recommended alternative for Claude Opus flagship", updated)
+        self.assertIn("| `sk-geminigood` | gemini-2.5-pro | 🆕 New | $20 | 20 RPM | 2026-06-05 | Gemini Pro |", updated)
+        self.assertIn("Available_Keys-1-brightgreen", updated)
+
+    def test_update_readme_cn_smart_chat_fallback_writes_chinese_labels(self):
+        readme = self.write_temp_readme(
+            "[![Keys](https://img.shields.io/badge/可用_Key-0-brightgreen?style=for-the-badge)]()\n\n"
+            "## 📋 可用 Key 列表\n\n"
+            "> ⏰ 最后更新: 2026-04-30 17:52 (UTC+8)\n\n"
+            f"### {publish_keys.MULTI_MODEL_GROUP_CN} `04-30 17:52`\n\n"
+            "| Key | 模型 | 状态 | 预算 | 速率限制 | 过期时间 | 说明 |\n"
+            "|-----|------|------|------|---------|---------|------|\n"
+            "| `sk-smartcn` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-05-02 | 自动路由 |\n\n"
+            "## 🚀 如何使用\n"
+        )
+
+        publish_keys.update_readme(str(readme), {}, deleted_keys=[], warn_keys=[], lang="cn")
+
+        updated = readme.read_text(encoding="utf-8")
+        self.assertNotIn("🛟 兜底", updated)
+        self.assertNotIn("smart-chat (gpt-5.5 兜底)", updated)
+        self.assertNotIn("补货期间由 smart-chat 自动路由", updated)
+        self.assertIn("| `sk-smartcn` | smart-chat | 🆕 新增 | $50 | 10 RPM | 2026-05-02 | 自动路由 |", updated)
+        # Unique-key badge still counts the smart-chat token only once.
+        self.assertIn("可用_Key-1-brightgreen", updated)
+
+    def test_count_table_keys_dedupes_fallback_rows(self):
+        text = (
+            "| `sk-a` | smart-chat | 🆕 New | $50 | 10 RPM | 2026-05-02 | Auto |\n"
+            "| `sk-a` | smart-chat (gpt-5.5 fallback) | 🛟 Fallback | $50 | 10 RPM | 2026-05-02 | Premium — fallback | "
+            + publish_keys.FALLBACK_MARKER
+            + "\n"
+            "| `sk-b` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-05-02 | Stable |\n"
+        )
+        self.assertEqual(publish_keys.count_table_keys(text), 2)
+
+    def test_git_commit_and_push_skips_pure_timestamp_diff(self):
+        with mock.patch.object(publish_keys, "contains_conflict_markers", return_value=False), \
+             mock.patch.object(publish_keys.subprocess, "run") as run:
+            # 1st call: git add; 2nd: diff --cached --quiet (returns 1 = has
+            # changes); 3rd: diff --cached --unified=0 (timestamp-only diff);
+            # 4th & 5th: reset + checkout to drop the cosmetic change.
+            run.side_effect = [
+                CompletedProcess(args=[], returncode=0),
+                CompletedProcess(args=[], returncode=1),
+                CompletedProcess(
+                    args=[],
+                    returncode=0,
+                    stdout=(
+                        "--- a/README.md\n"
+                        "+++ b/README.md\n"
+                        "@@\n"
+                        "-> ⏰ Last updated: 2026-04-30 17:37 (UTC+8)\n"
+                        "+> ⏰ Last updated: 2026-04-30 17:52 (UTC+8)\n"
+                        "@@\n"
+                        "-### GPT-5.5 `04-30 17:37`\n"
+                        "+### GPT-5.5 `04-30 17:52`\n"
+                    ),
+                ),
+                CompletedProcess(args=[], returncode=0),
+                CompletedProcess(args=[], returncode=0),
+            ]
+            publish_keys.git_commit_and_push(0, 0)
+
+        commands = [call.args[0] for call in run.call_args_list]
+        # Must have issued a reset + checkout to drop the cosmetic diff.
+        self.assertTrue(any(cmd[3] == "reset" for cmd in commands if len(cmd) > 3))
+        self.assertTrue(any(cmd[3] == "checkout" for cmd in commands if len(cmd) > 3))
+        # Must NOT have issued commit / push.
+        self.assertFalse(any(cmd[3] == "commit" for cmd in commands if len(cmd) > 3))
+        self.assertFalse(any(cmd[3] == "push" for cmd in commands if len(cmd) > 3))
+
+    def test_git_commit_and_push_still_commits_real_diff(self):
+        with mock.patch.object(publish_keys, "contains_conflict_markers", return_value=False), \
+             mock.patch.object(publish_keys.subprocess, "run") as run:
+            run.side_effect = [
+                CompletedProcess(args=[], returncode=0),  # git add
+                CompletedProcess(args=[], returncode=1),  # diff --cached --quiet
+                CompletedProcess(
+                    args=[],
+                    returncode=0,
+                    stdout=(
+                        "--- a/README.md\n"
+                        "+++ b/README.md\n"
+                        "@@\n"
+                        "+| `sk-new` | deepseek-chat | 🆕 New | $20 | 20 RPM | 2026-05-02 | Stable |\n"
+                    ),
+                ),  # meaningful diff check
+                CompletedProcess(args=[], returncode=0),  # commit
+                CompletedProcess(args=[], returncode=0),  # push
+            ]
+            publish_keys.git_commit_and_push(1, 0)
+
+        commands = [call.args[0] for call in run.call_args_list]
+        self.assertTrue(any(cmd[3] == "commit" for cmd in commands if len(cmd) > 3))
+        self.assertTrue(any(cmd[3] == "push" for cmd in commands if len(cmd) > 3))
+
+
+class ApiRequestRetryTests(unittest.TestCase):
+    """Covers docs/plans/2026-05-23-cron-resilience.md: api_request retries on transient KM 5xx."""
+
+    def setUp(self):
+        self._token_patcher = mock.patch.object(publish_keys, "KM_TOKEN", "test-token")
+        self._token_patcher.start()
+        self.addCleanup(self._token_patcher.stop)
+
+    @staticmethod
+    def _make_http_error(status):
+        # urllib.error.HTTPError(url, code, msg, hdrs, fp); fp must support .read().
+        import io
+        return publish_keys.urllib.error.HTTPError(
+            url="https://api.openkeyshare.dev/km/keys",
+            code=status,
+            msg="Bad Gateway" if status == 502 else "err",
+            hdrs={},
+            fp=io.BytesIO(b'{"detail":"upstream blip"}'),
+        )
+
+    def _make_ok_response(self, payload):
+        class _Resp:
+            def __enter__(self_inner):
+                return self_inner
+            def __exit__(self_inner, *exc):
+                return False
+            def read(self_inner):
+                import json as _json
+                return _json.dumps(payload).encode("utf-8")
+        return _Resp()
+
+    def test_retries_on_transient_502_then_succeeds(self):
+        ok = self._make_ok_response({"keys": [{"id": 1}]})
+        side_effects = [self._make_http_error(502), ok]
+        with mock.patch.object(publish_keys.urllib.request, "urlopen", side_effect=side_effects) as urlopen, \
+             mock.patch.object(publish_keys.time, "sleep") as sleep:
+            result = publish_keys.api_request("GET", "/keys")
+
+        self.assertEqual(result, {"keys": [{"id": 1}]})
+        self.assertEqual(urlopen.call_count, 2)
+        self.assertEqual(sleep.call_count, 1)  # one sleep between two attempts
+
+    def test_exhausts_retries_then_raises(self):
+        side_effects = [self._make_http_error(502) for _ in range(6)]
+        with mock.patch.object(publish_keys.urllib.request, "urlopen", side_effect=side_effects) as urlopen, \
+             mock.patch.object(publish_keys.time, "sleep"):
+            with self.assertRaises(RuntimeError) as cm:
+                publish_keys.api_request("POST", "/keys/status", {"keys": []}, retry_attempts=6, retry_sleep_seconds=0.0)
+
+        self.assertEqual(urlopen.call_count, 6)
+        self.assertIn("502", str(cm.exception))
+
+    def test_non_transient_404_does_not_retry(self):
+        side_effects = [self._make_http_error(404)]
+        with mock.patch.object(publish_keys.urllib.request, "urlopen", side_effect=side_effects) as urlopen, \
+             mock.patch.object(publish_keys.time, "sleep") as sleep:
+            with self.assertRaises(RuntimeError):
+                publish_keys.api_request("GET", "/missing")
+
+        self.assertEqual(urlopen.call_count, 1)
+        self.assertEqual(sleep.call_count, 0)
+
+    def test_retry_defaults_pulled_from_env(self):
+        # The function signature captures KM_RETRY_ATTEMPTS / KM_RETRY_SLEEP_SECONDS at import time;
+        # ensure the bumped defaults (>=6 attempts, >=3s base) actually landed.
+        import inspect
+        sig = inspect.signature(publish_keys.api_request)
+        self.assertGreaterEqual(sig.parameters["retry_attempts"].default, 6)
+        self.assertGreaterEqual(sig.parameters["retry_sleep_seconds"].default, 3.0)
+
+
+class MainCleanupFailSoftTests(unittest.TestCase):
+    """Covers docs/plans/2026-05-23-cron-resilience.md: cleanup failure must not block create_keys."""
+
+    def _run_main_with_cleanup_failing(self, cleanup_only=False):
+        argv = ["publish_keys.py"] + (["--cleanup-only"] if cleanup_only else [])
+        cleanup_error = RuntimeError("POST /keys/status failed: 502 upstream blip")
+        with mock.patch.object(publish_keys.sys, "argv", argv), \
+             mock.patch.object(publish_keys, "sync_repo_before_publish", return_value=True), \
+             mock.patch.object(publish_keys, "clean_expired_keys", side_effect=cleanup_error), \
+             mock.patch.object(publish_keys, "check_budget", return_value=1000.0), \
+             mock.patch.object(publish_keys, "fetch_recommended_models", return_value=[]), \
+             mock.patch.object(publish_keys, "create_keys", return_value={}) as create, \
+             mock.patch.object(publish_keys, "sync_from_active", return_value={}), \
+             mock.patch.object(publish_keys, "update_readme") as update_readme, \
+             mock.patch.object(publish_keys, "update_docs_index"), \
+             mock.patch.object(publish_keys, "git_commit_and_push"), \
+             mock.patch.object(publish_keys, "log_usage_stats"), \
+             mock.patch.object(publish_keys.sys, "stderr") as stderr:
+            publish_keys.main()
+        stderr_text = "".join(call.args[0] for call in stderr.write.call_args_list if call.args)
+        return create, update_readme, stderr_text
+
+    def test_full_publish_continues_when_cleanup_raises(self):
+        create, update_readme, stderr_text = self._run_main_with_cleanup_failing(cleanup_only=False)
+        self.assertEqual(create.call_count, 1, "create_keys must still run after cleanup failure")
+        self.assertGreaterEqual(update_readme.call_count, 1)
+        self.assertIn("[ALERT]", stderr_text)
+        self.assertIn("cleanup failed", stderr_text)
+
+    def test_cleanup_only_bails_when_cleanup_raises(self):
+        create, update_readme, stderr_text = self._run_main_with_cleanup_failing(cleanup_only=True)
+        # cleanup-only mode has nothing to do without deletions; should not touch README/create.
+        self.assertEqual(create.call_count, 0)
+        self.assertEqual(update_readme.call_count, 0)
+        self.assertIn("[ALERT]", stderr_text)
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Free Claude API Key — Use Claude Opus 4.7 Free (No Credit Card)</title>
+  <meta name="description" content="Get a free Claude API key and call Claude Opus 4.7 with the OpenAI SDK — no credit card, no sign-up. Copy a shared key, set the base URL, and start building or coding in Cursor/Cline.">
+  <meta name="keywords" content="free claude api key, free claude opus api key, claude api free, anthropic api free, free claude key, claude opus 4.7 api, claude api no credit card">
+  <meta name="author" content="OpenKeyShare">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://nexttofly.github.io/free-llm-keys/models/free-claude-api-key.html">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Free Claude API Key — Claude Opus 4.7, No Credit Card">
+  <meta property="og:description" content="Call Claude Opus 4.7 free with the OpenAI SDK. Copy a shared key, set the base URL, start building.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://nexttofly.github.io/free-llm-keys/models/free-claude-api-key.html">
+  <meta property="og:image" content="https://raw.githubusercontent.com/nexttofly/free-llm-keys/main/assets/banner.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free Claude API Key — Claude Opus 4.7">
+  <meta name="twitter:description" content="Call Claude Opus 4.7 free with the OpenAI SDK. No credit card.">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/nexttofly/free-llm-keys/main/assets/banner.jpg">
+
+  <!-- JSON-LD: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Free Claude API Key",
+    "description": "Free Claude Opus 4.7 API access using shared keys compatible with the OpenAI SDK",
+    "url": "https://nexttofly.github.io/free-llm-keys/models/free-claude-api-key.html",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is the Claude API key really free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. The keys are shared publicly with a pre-funded budget — no credit card and no sign-up. Because they are shared, a key may run out of budget; just grab another from the table or come back later for fresh keys." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which Claude model can I use?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Claude Opus 4.7, Anthropic's flagship model, via the model name claude-opus-4-7. The keys are OpenAI-compatible, so you call it through the OpenAI SDK by changing the base URL." }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an Anthropic account?",
+        "acceptedAnswer": { "@type": "Answer", "text": "No. You do not need an Anthropic account or any sign-up. Copy a key from the list, set the base URL to https://api.openkeyshare.dev/v1, and start calling the API." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use the free Claude key in Cursor or Cline?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Any tool that supports a custom OpenAI-compatible endpoint works. Set the base URL to https://api.openkeyshare.dev/v1, paste the key, and select claude-opus-4-7." }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #141922; color: #e8eaed; line-height: 1.6;
+    }
+    .container { max-width: 760px; margin: 0 auto; padding: 32px 20px 60px; }
+    a { color: #00d4ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Breadcrumb */
+    .crumb { font-size: 0.78rem; color: #7788aa; margin-bottom: 24px; }
+    .crumb a { color: #8899aa; }
+
+    /* Hero */
+    .hero h1 {
+      font-size: 1.9rem; line-height: 1.25; margin-bottom: 14px;
+      background: linear-gradient(135deg, #00d4ff, #7b2ff7, #ff6ec7);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    }
+    .hero .lede { font-size: 1.02rem; color: #c0c8d4; margin-bottom: 20px; }
+    .cta-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 16px; }
+    .btn {
+      display: inline-block; padding: 12px 22px; border-radius: 10px;
+      font-size: 0.92rem; font-weight: 600; transition: opacity .2s;
+    }
+    .btn:hover { opacity: .9; text-decoration: none; }
+    .btn-primary { background: linear-gradient(135deg, #00d4ff, #7b2ff7); color: #fff; }
+    .btn-ghost { background: rgba(0,212,255,.1); border: 1px solid rgba(0,212,255,.3); color: #00d4ff; }
+
+    /* Inventory pill */
+    .pill {
+      display: inline-flex; align-items: center; gap: 8px; margin-bottom: 28px;
+      padding: 8px 14px; border-radius: 999px; font-size: 0.82rem; color: #b7c3d0;
+      background: rgba(0,255,136,.08); border: 1px solid rgba(0,255,136,.25);
+    }
+    .pill .dot { width: 8px; height: 8px; border-radius: 50%; background: #00ff88; }
+
+    /* Sections */
+    section { margin-top: 36px; }
+    h2 { font-size: 1.25rem; color: #f8fafc; margin-bottom: 12px; }
+    h3 { font-size: 1rem; color: #cdd6e0; margin: 18px 0 6px; }
+    p { color: #aab4c0; margin-bottom: 10px; }
+    ul, ol { color: #aab4c0; padding-left: 22px; margin-bottom: 10px; }
+    li { margin-bottom: 6px; }
+    strong { color: #dde3ea; }
+
+    pre {
+      background: #0d1117; border: 1px solid rgba(255,255,255,.1); border-radius: 10px;
+      padding: 14px 16px; overflow-x: auto; margin: 10px 0 16px;
+    }
+    code { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.82rem; color: #c0d4e8; }
+    p code, li code { background: rgba(255,255,255,.06); padding: 2px 6px; border-radius: 5px; color: #9fe0ff; }
+
+    .note {
+      background: rgba(255,255,255,.04); border-left: 3px solid #00d4ff;
+      border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 14px 0; font-size: .9rem; color: #b7c3d0;
+    }
+
+    /* FAQ */
+    details {
+      background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.1);
+      border-radius: 10px; padding: 14px 16px; margin-bottom: 10px;
+    }
+    summary { cursor: pointer; font-weight: 600; color: #dde3ea; font-size: .92rem; }
+    details p { margin-top: 10px; margin-bottom: 0; }
+
+    /* Related */
+    .related { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+    .related a {
+      padding: 8px 14px; border-radius: 8px; font-size: .82rem;
+      background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.1); color: #b0b8c4;
+    }
+    .related a:hover { border-color: #00d4ff; color: #00d4ff; text-decoration: none; }
+
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,.06); font-size: .78rem; color: #7788aa; }
+
+    @media (max-width: 600px) { .hero h1 { font-size: 1.5rem; } }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="crumb">
+    <a href="../">OpenKeyShare</a> › <a href="../">Models</a> › Free Claude API Key
+  </nav>
+
+  <div class="hero">
+    <h1>Free Claude API Key — Use Claude Opus 4.7 Without a Credit Card</h1>
+    <p class="lede">
+      Call <strong>Claude Opus 4.7</strong>, Anthropic's flagship model, for free.
+      The keys are OpenAI-compatible — copy one, set the base URL, and start building
+      in seconds. No Anthropic account, no sign-up, no card.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://github.com/nexttofly/free-llm-keys#-available-keys">Get a Free Key →</a>
+      <a class="btn btn-ghost" href="../">Try it in the Playground</a>
+    </div>
+  </div>
+
+  <div class="pill"><span class="dot"></span> 20+ free keys in the shared pool, refreshed multiple times daily</div>
+
+  <section>
+    <h2>What you get</h2>
+    <p>
+      A working API key that reaches <strong>Claude Opus 4.7</strong> through an
+      OpenAI-compatible gateway. Opus is Anthropic's strongest model — excellent for
+      complex reasoning, long-form writing, agentic workflows, and especially
+      <strong>coding</strong> inside tools like Cursor, Cline, and Continue.
+    </p>
+    <div class="note">
+      <strong>How sharing works:</strong> keys are public and pre-funded, so they
+      may run out of budget. If one key is exhausted, just grab another from the
+      table — fresh keys are published throughout the day. For uninterrupted use,
+      drop a key into your own app and run on your own quota.
+    </div>
+  </section>
+
+  <section>
+    <h2>How to use a free Claude API key</h2>
+    <ol>
+      <li>Open the <a href="https://github.com/nexttofly/free-llm-keys#-available-keys">key table on GitHub</a> and copy a key from the <strong>Claude Opus 4.7</strong> shelf.</li>
+      <li>Set the base URL to <code>https://api.openkeyshare.dev/v1</code>.</li>
+      <li>Use model <code>claude-opus-4-7</code> with any OpenAI SDK or compatible tool.</li>
+    </ol>
+
+    <h3>cURL</h3>
+    <pre><code>curl https://api.openkeyshare.dev/v1/chat/completions \
+  -H "Authorization: Bearer YOUR_FREE_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "claude-opus-4-7",
+    "messages": [{"role": "user", "content": "Write a haiku about free APIs"}]
+  }'</code></pre>
+
+    <h3>Python (OpenAI SDK)</h3>
+    <pre><code>from openai import OpenAI
+
+client = OpenAI(
+    api_key="YOUR_FREE_KEY",
+    base_url="https://api.openkeyshare.dev/v1",
+)
+
+resp = client.chat.completions.create(
+    model="claude-opus-4-7",
+    messages=[{"role": "user", "content": "Explain quantum tunneling simply"}],
+)
+print(resp.choices[0].message.content)</code></pre>
+
+    <h3>Use it in Cursor / Cline</h3>
+    <p>
+      In your editor's AI settings, set the OpenAI base URL to
+      <code>https://api.openkeyshare.dev/v1</code>, paste the key, and pick
+      <code>claude-opus-4-7</code>. You get Claude-powered code completion and chat for free.
+    </p>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <details open>
+      <summary>Is the Claude API key really free?</summary>
+      <p>Yes. Keys are shared publicly with a pre-funded budget — no credit card, no sign-up. Because they're shared, a key may run out of budget; grab another from the table or come back later.</p>
+    </details>
+    <details>
+      <summary>Which Claude model can I use?</summary>
+      <p>Claude Opus 4.7 via the model name <code>claude-opus-4-7</code>. Keys are OpenAI-compatible, so you call it through the OpenAI SDK by changing the base URL.</p>
+    </details>
+    <details>
+      <summary>Do I need an Anthropic account?</summary>
+      <p>No. Copy a key, set the base URL to <code>https://api.openkeyshare.dev/v1</code>, and call the API. No Anthropic account required.</p>
+    </details>
+    <details>
+      <summary>A key stopped working — what now?</summary>
+      <p>That's normal for shared keys: it likely ran out of budget. Grab another from the table, or use <strong>Smart mode</strong> in the playground, which auto-routes to an available model.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Explore other free models</h2>
+    <div class="related">
+      <a href="./free-gpt-api-key.html">Free GPT API Key</a>
+      <a href="./free-deepseek-api-key.html">Free DeepSeek API Key</a>
+      <a href="./free-gemini-api-key.html">Free Gemini API Key</a>
+      <a href="../tools/free-api-key-for-cursor.html">Free API Key for Cursor</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      <a href="../">OpenKeyShare Playground</a> ·
+      <a href="https://github.com/nexttofly/free-llm-keys#-available-keys">Browse all free keys</a> ·
+      <a href="https://github.com/nexttofly/free-llm-keys#-how-to-use">Setup guide</a> ·
+      <a href="https://github.com/nexttofly/free-llm-keys#-faq">FAQ</a> ·
+      <a href="https://github.com/nexttofly/free-llm-keys">⭐ Star on GitHub</a> ·
+      <a href="https://github.com/nexttofly/free-llm-keys/watchers">🔔 Watch this repo for key drops</a>
+    </p>
+    <p>Free Claude API Key — Claude Opus 4.7 via an OpenAI-compatible endpoint. Keys are shared and provided as-is.</p>
+  </footer>
+
+</div>
+
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "af9f4e07fde9467780b91377e2456b58"}'></script>
+<!-- End Cloudflare Web Analytics -->
+</body>
+</html>

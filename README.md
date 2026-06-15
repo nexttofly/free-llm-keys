@@ -1,0 +1,2844 @@
+<!--
+  SEO: free llm api key, free gpt api key, free claude api key, free deepseek api,
+  free ai api, free openai api key, free gemini api key, free grok api key,
+  free llm api, openai compatible api, multi model api gateway
+-->
+
+<div align="center">
+
+<img src="./assets/banner.jpg" alt="OpenKeyShare — GPT-5.5, Claude, DeepSeek, Gemini, Grok, 90+ Models" width="100%">
+
+<br>
+
+The easiest way to access LLM APIs for free — no credit card, no registration.
+<br>
+Copy a key from the table below, paste it into your app, and start building.
+
+<br>
+
+[![Stars](https://img.shields.io/github/stars/nexttofly/free-llm-keys?style=for-the-badge&logo=github)](https://github.com/nexttofly/free-llm-keys/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/nexttofly/free-llm-keys?style=for-the-badge)](https://github.com/nexttofly/free-llm-keys/commits)
+[![Keys](https://img.shields.io/badge/Available_Keys-41-brightgreen?style=for-the-badge)]()
+[![Models](https://img.shields.io/badge/Models-90+-blue?style=for-the-badge)]()
+[![Discussions](https://img.shields.io/badge/GitHub-Discussions-181717?style=for-the-badge&logo=github)](../../discussions)
+
+**⭐ Stars are optional support, never required to join or win. They simply help keep the project visible and the free keys going.**
+**🔔 [Watch this repo](../../watchers) for fresh key drops, new model alerts & uptime status**
+
+[English](./README.md) | [中文](./README_CN.md) | [日本語](./README_JA.md) | [한국어](./README_KO.md) | [Español](./README_ES.md) | [Português](./README_PT.md)
+
+</div>
+
+---
+
+<div align="center">
+
+🧪 **[Try it in the Playground →](https://nexttofly.github.io/free-llm-keys/)** — paste a key, chat with 90+ models in your browser, no install
+
+</div>
+
+---
+
+<!-- daily-grant:start -->
+## 🎁 Daily AI API Grant
+
+We run a small daily AI API grant from spare production-grade API capacity. Each day, we share a few private 24h API keys with active builders. To participate, open an issue with the `grant-application` label and tell us what you are building.
+
+**How to apply:** [Open a grant request](../../issues/new?labels=grant-application)
+**Latest grant:** 2026-06-09 — claude-opus-4-7 (24h private key)
+
+Stars are optional and never required to win. They simply help the project stay visible and keep the grants going.
+
+No purchase. Not affiliated with any third-party platform.
+<!-- daily-grant:end -->
+
+## 💡 Why This Project?
+
+AI is changing everything, but most APIs are locked behind credit cards and paywalls. Not everyone has access — especially students, hobbyists, and developers in regions where these services aren't available.
+
+I use LLM APIs heavily in my own work. I have spare capacity that would otherwise go to waste. So I decided to share it — free keys, no strings attached, updated daily.
+
+**No credit card. No registration. Just copy, paste, and build.**
+
+---
+
+## 💼 Need higher availability?
+
+For production-grade LLM keys, contact **nexttofly@gmail.com**.
+
+---
+
+## 📋 Available Keys
+
+> ⏰ Last updated: 2026-06-15 23:52 (UTC+8)
+>
+> All keys are API tokens compatible with **OpenAI SDK** — use them with any tool that supports custom OpenAI endpoints.
+> New keys are published multiple times per day by the server cron. Expired keys are cleaned throughout the day. Each key has a budget ($20-$100) and expires in 24-48 hours.
+>
+> ⚠️ **Note:** Keys are shared publicly. Budget may already be consumed by other users. If a key or model doesn't work, try another one; if it still fails, send the model name to [GitHub Discussions](https://github.com/nexttofly/free-llm-keys/discussions).
+>
+> **[Verify your key here](https://nexttofly.github.io/free-llm-keys/)** — one-click check if a key still works.
+
+### Featured models
+
+GPT-5.5, Claude Opus 4.7, Gemini, DeepSeek, smart-chat, Kimi, image, audio, and embeddings.
+The publisher only shows real keys. Main shelves only show direct keys for that model; extra positive-balance models are listed as their own model shelves.
+
+### Claude Opus 4.7 `06-15 23:52`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-uhatHVsCGeYUtOS6KXj2YVptyBWX87SvvcPuUw6nk8Xe982p` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
+| `sk-JkiiprXLy3WmebpzkU3lqeXqiwQi34Ma0lbJICvyzIZQvmvx` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
+| `sk-LDphiR7aRY48qFFb17WrihVli0kdC7CVa38ALt0BB0W48Swf` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
+| `sk-g3EjiJfOZIlNlnkxaUNohUrUBZAjNuK1KtwM4CUmfrYdjNIa` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
+| `sk-QXHqpne6Xz4wYR328y5GSCc8EQtr7Ddlx1diNZagVfY8iejO` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
+| `sk-F5QAJNWmmpTaGIo4fAxKhVhcifU6KBlAZcjAKfGvPalg21ir` | claude-opus-4-7 | 🆕 New | $20 | 5 RPM | 2026-06-16 | Claude Opus flagship |
+
+---
+
+### Gemini `06-15 23:52`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-CS4zrotEUJfLS79kAD8yRG6fh9diKnbA8gdAvc92pKJ4Hxlj` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-06-16 | Fast Gemini option for long-context general chat |
+| `sk-vpT4LhSjkJHnlqiNUykQSw2OnWE54uPgZTvUH2IVNuXsEFjA` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-06-16 | Fast Gemini option for long-context general chat |
+| `sk-BprJAZV5qlXKl1cPuimk7zh0PFEsFXI1yt2UcToBTkpJTmAc` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-06-16 | Fast Gemini option for long-context general chat |
+| `sk-CytwCeM6tmAyAoPjku5Tuovck3JEM7U5dPnv3CSzCczlPGHF` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-06-16 | Fast Gemini option for long-context general chat |
+| `sk-m1pmqqkO60FNQiEvb7zMRQPe6tOj2JUa8zjqBQG4Vu9MMbsG` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-06-16 | Fast Gemini option for long-context general chat |
+| `sk-MsLMVROXmo9ut4byG4LabVELpiOEwzCnkHOqX778ZfogCo5v` | gemini-2.5-flash | 🆕 New | $20 | 20 RPM | 2026-06-16 | Fast Gemini option for long-context general chat |
+
+---
+
+### Kimi `06-15 23:52`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-YRC828K0DAanbboYfplCN2GszGxiQnYsPR4SXkuEu6YVD0m1` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-17 | Kimi long-context general model |
+| `sk-dIdD5KkhG2EjgGkjqVjyQPE5P1QHlMIGFREKM5BfjJM1GvJ4` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-17 | Kimi long-context general model |
+| `sk-MygaYu8cuev1CWXXfbSBvyXIdESbCBjUnmzEdgY9mt2PDEDj` | kimi-k2.5 | 🆕 New | $19 | 10 RPM | 2026-06-17 | Kimi long-context general model |
+
+---
+
+### Image / Audio / Embedding `06-15 23:52`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-OJDNZeiBPKvdqZxIa29q20YsFYpUx1yUYNe2HMPxz87mdOJe` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-06-16 | Text embeddings |
+| `sk-oLJIiPS8ZoWoAoEMYUQ1nEDDuMT2gq6DI8y6CZhjG501qkYU` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-06-16 | Text embeddings |
+| `sk-ZmZkSjnWcczHpf4bhVmznqSnEd8g8zgvAkTIIg0nWOuCjKMS` | text-embedding-3-small | 🆕 New | $20 | 20 RPM | 2026-06-16 | Text embeddings |
+
+### openrouter/owl-alpha `06-15 20:30`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-7BnbrWz44wYoT917y8AnWRsrmMbJn7QOKxgpDShlkFrWpKh5` | openrouter/owl-alpha | 🆕 New | $20 | 10 RPM | 2026-06-16 | Live positive-balance channel |
+
+---
+
+### x-ai/grok-4.3 `06-15 14:30`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-K3h6HThH6ESMPAJAulZUuLgRyEYk9CxMLIlNTN30935Vh8To` | x-ai/grok-4.3 | 🆕 New | $20 | 10 RPM | 2026-06-16 | Live positive-balance channel |
+
+---
+
+### qwen/qwen3.6-flash `06-15 12:30`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-08Z6bLXHe0in2oPe3RBtXZbdGjbnduBO6wSZfzEiLQb5xctI` | qwen/qwen3.6-flash | 🆕 New | $20 | 10 RPM | 2026-06-16 | Live positive-balance channel |
+
+---
+
+### poolside/laguna-xs.2:free `06-15 08:30`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-wiTFQV2fsmhISFVr5aBU9gmDD0VtTwciZapuXKHJbsm4g40R` | poolside/laguna-xs.2:free | 🆕 New | $20 | 10 RPM | 2026-06-16 | Live positive-balance channel |
+
+---
+
+### poolside/laguna-m.1:free `06-15 06:30`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-Y8gLaOFVjN9ildptwf1nkFkGcpHmTxkqWso46lHxvBoWdxUw` | poolside/laguna-m.1:free | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### baidu/cobuddy:free `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-BY8D5fc6F3fnZxS0ZlMX7ivjCvPns7J6BDeWG2YezYdhINdd` | baidu/cobuddy:free | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### google/gemini-3.1-flash-lite `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-pvoZKpvxhvfKrLRXggAf3EyiVhOhfQDmb0EOpcSyoH6EFobf` | google/gemini-3.1-flash-lite | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### ibm-granite/granite-4.1-8b `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-19BNcKDqezpM3U2GxBTAj1qidPyjrlUHQBrr1j4zIwPcl4WG` | ibm-granite/granite-4.1-8b | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### inclusionai/ring-2.6-1t `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-GRnDtaeDaIWBCX7U67UtKu59558qbQ7emwu4PhmHe578joGg` | inclusionai/ring-2.6-1t | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### mistralai/mistral-medium-3-5 `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-89jJehbiRM1JS9Khrj16RhfEoa8mHijhmZjeWsy2sSBYm6yZ` | mistralai/mistral-medium-3-5 | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-6qQdueWqFDWSrX6qbnwx5hGQYNQqS8XpxsXtFboW60wcwyEn` | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### openai/gpt-chat-latest `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-PnYhZEpLdRHjvn7p5T3Th3TRlRZkMMzI7LB6ASWC3llxQNe3` | openai/gpt-chat-latest | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### perceptron/perceptron-mk1 `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-NRmS7dQL3zfWMMGFVE9AiZ6oV8SLKwEG9xZLw5CtDFmwjw4H` | perceptron/perceptron-mk1 | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### deepseek/deepseek-v4-flash `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-QPGn51XRj0wEREJMqUZxRtmWqXXaayu20KgLtPM4VrZOXL2B` | deepseek/deepseek-v4-flash | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### deepseek/deepseek-v4-pro `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-F8GJxwMMe0iyeDNbJAV6UtZOwqnjoVihQqaGLEv7Hj3iqpaS` | deepseek/deepseek-v4-pro | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### inclusionai/ling-2.6-1t:free `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-fL6Ret5PaFGDrJA02PrEHMzhcS6jz64hDv8iL9XgdODtqkak` | inclusionai/ling-2.6-1t:free | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### openai/gpt-5.5 `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-c1kIHdkvl9FtfnYBFyqRmak9qmf3BM96Af18ZY76UMUvObq9` | openai/gpt-5.5 | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### openai/gpt-5.5-pro `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-1miTpanAfPgkH42nnv2VqSkwJIROOWFr8kUKsdiEHVxgTaow` | openai/gpt-5.5-pro | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### qwen/qwen3.5-plus-20260420 `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-WkGJ5iJ18mXgA9NeF1daYJdDyUd2kX7qm2X4WydVUjmEaCxF` | qwen/qwen3.5-plus-20260420 | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### qwen/qwen3.6-27b `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-fOUJUNOZlUfXRRSPTmzSF37zEgrjIK9exsDVVd1GjYsokJuY` | qwen/qwen3.6-27b | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### qwen/qwen3.6-max-preview `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-XF8vt6kr8AetedjCfCQJXCXhS1uPoi9MZJjBwfZ3YQHxrqLx` | qwen/qwen3.6-max-preview | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### inclusionai/ring-2.6-1t:free `06-15 02:31`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-3QxsHDZWxZk2Owpku40avgbgtzuDsZO9gyHrn0Awy8npZ3tJ` | inclusionai/ring-2.6-1t:free | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+### qwen/qwen3.6-35b-a3b `06-15 00:30`
+
+| Key | Model | Status | Budget | Rate Limit | Expires | Description |
+|-----|-------|--------|--------|------------|---------|-------------|
+| `sk-QoANAS519QqztPmkAzhVYaLNTnoNuyh7PFClUnhqzXiLO95N` | qwen/qwen3.6-35b-a3b | 🆕 New | $20 | 10 RPM | 2026-06-15 | Live positive-balance channel |
+
+---
+
+
+## 🚀 How to Use
+
+All keys work with the **OpenAI API format**. Just set the base URL and paste your key.
+
+**Base URL:** `https://api.openkeyshare.dev/v1`
+
+### cURL
+
+```bash
+curl https://api.openkeyshare.dev/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer PASTE_KEY_HERE" \
+  -d '{
+    "model": "gpt-5.5",
+    "messages": [{"role": "user", "content": "Hello!"}]
+  }'
+```
+
+### Python
+
+```python
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="https://api.openkeyshare.dev/v1",
+    api_key="PASTE_KEY_HERE"
+)
+
+response = client.chat.completions.create(
+    model="gpt-5.5",
+    messages=[{"role": "user", "content": "Hello!"}]
+)
+print(response.choices[0].message.content)
+```
+
+### Node.js
+
+```javascript
+import OpenAI from 'openai';
+
+const client = new OpenAI({
+  baseURL: 'https://api.openkeyshare.dev/v1',
+  apiKey: 'PASTE_KEY_HERE',
+});
+
+const response = await client.chat.completions.create({
+  model: 'gpt-5.5',
+  messages: [{ role: 'user', content: 'Hello!' }],
+});
+console.log(response.choices[0].message.content);
+```
+
+### Image Generation (DALL-E 3)
+
+```python
+response = client.images.generate(
+    model="dall-e-3",
+    prompt="A cat astronaut floating in space, digital art",
+    size="1024x1024",
+    n=1
+)
+print(response.data[0].url)
+```
+
+### Text-to-Speech (TTS)
+
+```python
+response = client.audio.speech.create(
+    model="tts-1-hd",
+    voice="alloy",
+    input="Hello! This is a free text-to-speech demo."
+)
+response.stream_to_file("output.mp3")
+```
+
+### Embeddings
+
+```python
+response = client.embeddings.create(
+    model="text-embedding-3-small",
+    input="The quick brown fox jumps over the lazy dog"
+)
+print(f"Vector dimension: {len(response.data[0].embedding)}")
+```
+
+### Works With
+
+| Tool | How to connect |
+|------|----------------|
+| **Cursor** | Settings → Models → API Key + Base URL |
+| **ChatBox** | Settings → API → Custom Provider |
+| **LobeChat** | Settings → Language Model → OpenAI |
+| **NextChat** | Settings → OpenAI → API Key + Base URL |
+| **Open WebUI** | Admin → Settings → Connections → OpenAI API |
+| **Immersive Translate** | Settings → Translation → OpenAI |
+| **Bob Translate** | Preferences → Services → Translation → OpenAI |
+| **Any OpenAI-compatible app** | Set base URL to `https://api.openkeyshare.dev/v1` |
+
+> More integration guides: [examples/guides/](./examples/guides/)
+
+---
+
+## 🤖 Supported Models
+
+**90+ models** from 8+ providers, all accessible through a single API key.
+
+| Provider | Models | Notes |
+|----------|--------|-------|
+| **OpenAI** | gpt-5.5, gpt-5.5-mini, gpt-5.5-nano, gpt-5.5-pro, gpt-4 | Latest GPT lineup |
+| **Anthropic** | claude-opus-4-6, claude-sonnet-4-6, claude-haiku-4-5 | Latest Claude |
+| **DeepSeek** | deepseek-chat (V3), deepseek-reasoner (R1) | Chat + reasoning |
+| **Google** | gemini-3.1-flash-lite, gemini-3.1-flash-image | Gemini 3.1 |
+| **xAI** | grok-4.20-beta, grok-4.20-multi-agent-beta | Latest Grok |
+| **Mistral** | mistral-medium, codestral, devstral, mistral-small | Code + chat |
+| **Cohere** | command-a-vision, command-a-reasoning, embed, rerank | Enterprise AI |
+| **More** | Qwen, GLM-5, Mercury, MiniMax, Seed | Continuously expanding |
+
+**Beyond chat:** Image generation (DALL-E 3), text-to-speech (TTS-1-HD), embeddings, reranking.
+
+---
+
+## ❓ FAQ
+
+<details>
+<summary><b>What are these keys?</b></summary>
+
+API tokens (`sk-xxx`) issued by our own platform. They are compatible with the OpenAI API format — one key can access 90+ models from multiple providers.
+</details>
+
+<details>
+<summary><b>How is this different from OpenAI?</b></summary>
+
+| | This Project | OpenAI Direct |
+|---|---|---|
+| Credit card required | ❌ No | ✅ Yes |
+| Free quota | ✅ $20-$100 per key | ❌ None |
+| Multi-model access | ✅ One key, all models | ❌ One provider only |
+| Works in China | ✅ Direct access | ⚠️ VPN needed |
+| Latest models | ✅ GPT-5.5, Claude 4.6, Grok 4.20, Gemini 3.1 | ✅ OpenAI only |
+</details>
+
+<details>
+<summary><b>What are the limits?</b></summary>
+
+- Each key has a budget of **$20 – $100**
+- Rate limit: 3-20 requests per minute (RPM)
+- Keys expire in 24-48 hours
+- Keys are shared — budget may be used by others
+</details>
+
+<details>
+<summary><b>Key not working?</b></summary>
+
+Keys are shared publicly, so they may run out of budget. The server cron publishes fresh keys multiple times per day and cleans expired keys throughout the day, so come back later for currently available keys. You can also **Watch → Releases** to get notified.
+</details>
+
+<details>
+<summary><b>Is this safe?</b></summary>
+
+- These are tokens from our own platform, NOT third-party provider keys
+- Each key has independent budget and rate limits
+- We do not log conversations
+- Keys auto-expire after 24-48 hours
+</details>
+
+<details>
+<summary><b>What regions are supported?</b></summary>
+
+Available globally. Direct access from China — no VPN needed.
+</details>
+
+---
+
+## 🔗 Related Free Resources
+
+If this repo helped you, you may also like:
+
+- **[free-vpn-subscriptions](https://github.com/Au1rxx/free-vpn-subscriptions)** — hourly-refreshed Clash / sing-box / v2ray subscription URLs, every node TCP-probed and ranked by latency. No signup, no binary to install.
+- **[proxykit](https://github.com/Au1rxx/proxykit)** — Swiss-army knife for proxy subscriptions. Convert Clash / sing-box / v2ray / Surge formats, probe TCP+TLS liveness, detect Netflix / Disney+ / ChatGPT unlock. Single Go binary, no Docker.
+
+---
+
+## 📅 Changelog
+
+<details>
+<summary><b>Show changelog history</b></summary>
+
+### 2026-06-15
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-v4-flash, openrouter/owl-alpha, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, x-ai/grok-4.3), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, qwen/qwen3.6-flash, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, poolside/laguna-xs.2:free), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-v4-pro, poolside/laguna-m.1:free, poolside/laguna-xs.2:free, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, x-ai/grok-4.3), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 9 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 28 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openai/gpt-chat-latest, perceptron/perceptron-mk1, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 23 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-v4-flash, deepseek-v4-pro, qwen/qwen3.6-35b-a3b), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+
+### 2026-06-14
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 12 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 9 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-pro, openrouter/owl-alpha), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 15 keys (claude-opus-4-7, smart-chat, openrouter/owl-alpha, qwen/qwen3.6-flash, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, poolside/laguna-m.1:free, poolside/laguna-xs.2:free), cleaned 3 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 8 expired
+- 🆕 Added 30 keys (smart-chat, kimi-k2.5, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openai/gpt-chat-latest, perceptron/perceptron-mk1, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 19 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+
+### 2026-06-13
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, qwen/qwen3.6-35b-a3b), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free, poolside/laguna-xs.2:free, qwen/qwen3.6-flash), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 9 expired
+- 🆕 Added 34 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openai/gpt-chat-latest, openrouter/owl-alpha, perceptron/perceptron-mk1, poolside/laguna-xs.2:free, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+
+<details>
+<summary><b>Show changelog history (older than 3 days — archived)</b></summary>
+
+<details>
+<summary><b>Show archived changelog (older than 3 days — historical data, kept for reference)</b></summary>
+
+### 2026-06-12
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 21 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 10 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, qwen/qwen3.6-35b-a3b), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 9 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 8 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, qwen/qwen3.6-flash), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-v4-pro, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 30 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, openai/gpt-chat-latest, perceptron/perceptron-mk1, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-35b-a3b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+
+### 2026-06-11
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 19 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-v4-flash, poolside/laguna-m.1:free, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 9 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, poolside/laguna-xs.2:free, kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, deepseek-v4-pro, openrouter/owl-alpha, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, poolside/laguna-m.1:free, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 5 expired
+- 🆕 Added 17 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, qwen/qwen3.6-flash, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 2 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 7 expired
+- 🆕 Added 5 keys (gpt-5.5), cleaned 2 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 21 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-xs.2:free, gpt-5.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+
+### 2026-06-10
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 30 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, openai/gpt-chat-latest, openrouter/owl-alpha, perceptron/perceptron-mk1, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-35b-a3b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 2 keys (kimi-k2.5, gpt-5.5), cleaned 20 expired
+- 🆕 Added 28 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, gpt-5.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 10 expired
+- 🆕 Added 17 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 5 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openrouter/owl-alpha, gpt-5.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 5 expired
+- 🆕 Added 9 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 18 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 7 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 16 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 15 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 8 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 17 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, gpt-5.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 5 expired
+- 🆕 Added 16 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, qwen/qwen3.6-flash, kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 5 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 15 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-xs.2:free, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+
+### 2026-06-09
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5, gpt-5.5), cleaned 7 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-pro, gpt-5.5), cleaned 2 expired
+- 🆕 Added 33 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, openai/gpt-chat-latest, openrouter/owl-alpha, perceptron/perceptron-mk1, poolside/laguna-m.1:free, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-35b-a3b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (gpt-5.5, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 5 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 4 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 6 expired
+- 🆕 Added 7 keys (kimi-k2.5, gpt-5.5), cleaned 2 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (gpt-5.5, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 6 keys (gpt-5.5, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 3 expired
+- 🆕 Added 7 keys (gpt-5.5, kimi-k2.5), cleaned 7 expired
+- 🆕 Added 5 keys (kimi-k2.5, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (gpt-5.5, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 14 keys (gpt-5.5, smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 17 keys (gpt-5.5, smart-chat, deepseek-v4-flash, deepseek-v4-pro, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-v4-pro, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 18 keys (gpt-5.5, smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, qwen/qwen3.6-flash, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+
+### 2026-06-08
+- 🆕 Added 15 keys (claude-opus-4-7, smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 30 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, openai/gpt-chat-latest, openrouter/owl-alpha, perceptron/perceptron-mk1, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-35b-a3b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 10 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 19 expired
+- 🆕 Added 24 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free), cleaned 4 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 14 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 9 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 18 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openrouter/owl-alpha, poolside/laguna-m.1:free, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 8 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 7 keys (kimi-k2.5, smart-chat), cleaned 4 expired
+- 🆕 Added 5 keys (kimi-k2.5, smart-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, kimi-k2.5, deepseek-v4-pro, openrouter/owl-alpha), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 15 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free, qwen/qwen3.6-flash), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+
+### 2026-06-07
+- 🆕 Added 17 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openrouter/owl-alpha, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 10 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free), cleaned 1 expired
+- 🆕 Added 28 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openai/gpt-chat-latest, perceptron/perceptron-mk1, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-35b-a3b, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 12 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 9 expired
+- 🆕 Added 15 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 8 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-m.1:free, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 9 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, poolside/laguna-xs.2:free), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+
+### 2026-06-06
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 21 keys (claude-opus-4-7, smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro, openrouter/owl-alpha, qwen/qwen3.6-flash), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 8 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, kimi-k2.5), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 20 keys (poolside/laguna-xs.2:free, x-ai/grok-4.3, deepseek/deepseek-v4-flash, deepseek/deepseek-v4-pro, inclusionai/ling-2.6-1t:free, openai/gpt-5.5, openai/gpt-5.5-pro, qwen/qwen3.5-plus-20260420, qwen/qwen3.6-27b, qwen/qwen3.6-35b-a3b, qwen/qwen3.6-flash, qwen/qwen3.6-max-preview, inclusionai/ring-2.6-1t:free, deepseek-v4-pro, deepseek-v4-flash, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, kimi-k2.5, deepseek-v4-flash, deepseek-v4-pro), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 12 keys (poolside/laguna-m.1:free, perceptron/perceptron-mk1, openrouter/owl-alpha, openai/gpt-chat-latest, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, mistralai/mistral-medium-3-5, inclusionai/ring-2.6-1t, ibm-granite/granite-4.1-8b, google/gemini-3.1-flash-lite, baidu/cobuddy:free, deepseek-v4-pro, deepseek-v4-flash), cleaned 1 expired
+- 🆕 Added 33 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-v4-flash, deepseek-v4-pro, baidu/cobuddy:free, google/gemini-3.1-flash-lite, ibm-granite/granite-4.1-8b, inclusionai/ring-2.6-1t, mistralai/mistral-medium-3-5, nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free, openai/gpt-chat-latest, openrouter/owl-alpha, perceptron/perceptron-mk1, poolside/laguna-m.1:free), cleaned 17 expired
+
+### 2026-06-04
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 9 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 14 keys (gemini-2.5-pro, claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 17 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 15 keys (gemini-2.5-pro, claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 17 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 14 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 3 expired
+
+### 2026-06-03
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 5 keys (kimi-k2.5, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 18 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 8 expired
+- 🆕 Added 5 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 10 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 10 keys (gemini-2.5-pro, smart-chat), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 8 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, kimi-k2.5), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 15 keys (gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+
+### 2026-06-02
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 16 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 10 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 7 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 14 keys (gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 13 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 17 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 4 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (kimi-k2.5, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 6 keys (kimi-k2.5, claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 6 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 13 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 5 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 15 keys (gemini-2.5-pro, smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 5 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 10 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 16 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+
+### 2026-06-01
+- 🆕 Added 3 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (kimi-k2.5, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 3 keys (kimi-k2.5, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 9 keys (kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 17 keys (smart-chat, kimi-k2.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 17 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 10 keys (gemini-2.5-pro, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 11 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 10 keys (gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+
+### 2026-05-31
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 20 keys (gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 10 expired
+- 🆕 Added 15 keys (gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 8 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 6 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 3 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 7 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 6 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 14 keys (gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+
+### 2026-05-30
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 3 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 5 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 18 keys (gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 14 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 3 expired
+- 🆕 Added 6 keys (kimi-k2.5, claude-opus-4-7), cleaned 12 expired
+- 🆕 Added 6 keys (kimi-k2.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 7 expired
+- 🆕 Added 0 keys (no new keys), cleaned 11 expired
+- 🆕 Added 18 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 3 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 1 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (kimi-k2.5), cleaned 4 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 5 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 2 expired
+- 🆕 Added 4 keys (kimi-k2.5), cleaned 7 expired
+- 🆕 Added 2 keys (kimi-k2.5), cleaned 1 expired
+- 🆕 Added 20 keys (gemini-2.5-pro, claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 9 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 18 keys (claude-opus-4-7, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+
+### 2026-05-29
+- 🆕 Added 21 keys (claude-opus-4-7, gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 27 keys (claude-opus-4-7, gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 9 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 21 keys (claude-opus-4-7, gemini-2.5-pro, smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 13 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 7 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 23 keys (claude-opus-4-7, smart-chat, kimi-k2.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 19 keys (claude-opus-4-7, smart-chat, kimi-k2.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 23 keys (claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 8 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 20 keys (claude-opus-4-7, smart-chat, kimi-k2.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 22 keys (claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 9 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 22 keys (claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 9 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 23 keys (gemini-2.5-pro, claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 14 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 21 keys (claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 10 expired
+
+### 2026-05-28
+- 🆕 Added 2 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 22 keys (claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 12 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 20 keys (claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 0 keys (no new keys), cleaned 7 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat), cleaned 4 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 13 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 5 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 12 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+
+### 2026-05-27
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 10 expired
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 29 keys (gpt-5.5, gemini-2.5-flash, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 16 expired
+- 🆕 Added 14 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 15 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 5 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 10 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 15 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 0 keys (no new keys), cleaned 7 expired
+- 🆕 Added 16 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 12 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 10 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 4 keys (gpt-5.5), cleaned 2 expired
+- 🆕 Added 14 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 4 expired
+
+### 2026-05-26
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 20 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 8 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 18 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 8 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 13 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 4 keys (claude-opus-4-7, deepseek-chat), cleaned 3 expired
+- 🆕 Added 6 keys (deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 6 keys (claude-opus-4-7, deepseek-chat), cleaned 1 expired
+- 🆕 Added 12 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 15 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 13 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+
+### 2026-05-25
+- 🆕 Added 2 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 25 keys (gemini-2.5-flash, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 18 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 7 expired
+- 🆕 Added 6 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+
+### 2026-05-24
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 9 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 11 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 9 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (gemini-2.5-pro, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 6 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 20 keys (claude-opus-4-7, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 9 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 5 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 6 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 6 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 8 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 13 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 2 expired
+
+### 2026-05-23
+- 🆕 Added 8 keys (smart-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 14 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 6 expired
+- 🆕 Added 15 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 29 keys (gemini-2.5-flash, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 16 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 13 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 7 expired
+- 🆕 Added 15 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 2 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 8 expired
+- 🆕 Added 5 keys (gpt-5.5, deepseek-chat), cleaned 2 expired
+
+### 2026-05-22
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 13 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 5 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 3 expired
+- 🆕 Added 9 keys (gpt-5.5, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 2 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 2 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 3 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 1 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 15 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 6 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 13 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 13 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+
+### 2026-05-21
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 16 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 23 keys (claude-opus-4-7, gemini-2.5-flash, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 7 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+
+### 2026-05-20
+- 🆕 Added 9 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 15 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (gemini-2.5-pro, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (gemini-2.5-pro, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 11 keys (gemini-2.5-pro, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 16 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+
+### 2026-05-19
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 6 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 2 expired
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 20 keys (claude-opus-4-7, gemini-2.5-flash, deepseek-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 16 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 10 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 16 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+
+### 2026-05-18
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 10 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 4 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 5 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+
+### 2026-05-17
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 14 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, claude-opus-4-7, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (gemini-2.5-pro, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, claude-opus-4-7, deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, claude-opus-4-7, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 26 keys (claude-opus-4-7, gemini-2.5-flash, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 10 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, claude-opus-4-7), cleaned 3 expired
+
+### 2026-05-16
+- 🆕 Added 6 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (gemini-2.5-pro, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 15 keys (gemini-2.5-pro, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 14 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 4 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 16 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 15 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+
+### 2026-05-15
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 16 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 20 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 6 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 3 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 6 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 6 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 24 keys (gpt-5.5, claude-opus-4-7, gemini-2.5-flash, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 8 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 4 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 27 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, kimi-k2.5, text-embedding-3-small, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 10 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 10 expired
+- 🆕 Added 18 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 4 expired
+- 🆕 Added 2 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 14 keys (deepseek-chat, smart-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+
+### 2026-05-14
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 14 keys (deepseek-chat, smart-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 14 keys (gpt-5.5, deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 7 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 9 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 1 expired
+- 🆕 Added 10 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 1 expired
+- 🆕 Added 11 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 1 expired
+- 🆕 Added 12 keys (deepseek-chat, claude-opus-4-7, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 13 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 11 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 4 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 6 keys (deepseek-chat, claude-opus-4-7), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 5 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+
+### 2026-05-13
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 9 keys (claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 3 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 14 keys (gemini-2.5-flash, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 17 keys (deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 10 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+
+### 2026-05-12
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 3 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 4 expired
+- 🆕 Added 2 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 4 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 13 keys (gemini-2.5-pro, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 16 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 5 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 15 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 7 expired
+
+### 2026-05-11
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 12 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 3 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 7 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 15 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 11 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 14 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 9 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 16 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat, smart-chat), cleaned 3 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 5 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 5 expired
+- 🆕 Added 16 keys (gpt-5.5, gemini-2.5-flash, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 7 expired
+- 🆕 Added 23 keys (gpt-5.5, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 9 expired
+
+### 2026-05-10
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 12 expired
+- 🆕 Added 14 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 3 expired
+- 🆕 Added 5 keys (smart-chat), cleaned 4 expired
+- 🆕 Added 7 keys (gpt-5.5, smart-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 7 expired
+- 🆕 Added 5 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 11 keys (gpt-5.5, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 4 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat), cleaned 6 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 16 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 5 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 12 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 18 keys (claude-opus-4-7, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 11 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 3 expired
+- 🆕 Added 3 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+
+### 2026-05-09
+- 🆕 Added 12 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 12 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 10 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 10 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 9 keys (gpt-5.5, deepseek-chat), cleaned 2 expired
+- 🆕 Added 9 keys (gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 11 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 12 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 12 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 2 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 5 expired
+- 🆕 Added 5 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 13 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 16 keys (gemini-2.5-flash, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+
+### 2026-05-08
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 18 keys (kimi-k2.5, text-embedding-3-small, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (deepseek-chat, gpt-5.5), cleaned 10 expired
+- 🆕 Added 2 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 2 keys (gpt-5.5), cleaned 6 expired
+- 🆕 Added 9 keys (deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 9 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 15 keys (gpt-5.5, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (gpt-5.5), cleaned 3 expired
+- 🆕 Added 3 keys (smart-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 7 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 9 keys (gpt-5.5, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (deepseek-chat, gpt-5.5, smart-chat), cleaned 2 expired
+- 🆕 Added 9 keys (deepseek-chat, gpt-5.5, smart-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 11 keys (deepseek-chat, gpt-5.5, smart-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 17 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 13 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+
+### 2026-05-07
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 6 expired
+- 🆕 Added 10 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 14 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 20 keys (claude-opus-4-7, deepseek-chat, smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 13 keys (claude-opus-4-7, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 6 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 17 keys (claude-opus-4-7, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 6 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 7 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 6 expired
+- 🆕 Added 8 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 15 keys (claude-opus-4-7, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (gpt-5.5), cleaned 1 expired
+- 🆕 Added 3 keys (gpt-5.5, deepseek-chat), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 4 keys (gpt-5.5, deepseek-chat), cleaned 2 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 8 expired
+- 🆕 Added 22 keys (claude-opus-4-7, gemini-2.5-flash, deepseek-chat, smart-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 3 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+
+### 2026-05-06
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 14 keys (claude-opus-4-7, smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 5 expired
+- 🆕 Added 11 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 26 keys (claude-opus-4-7, smart-chat, kimi-k2.5, text-embedding-3-small, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 7 expired
+- 🆕 Added 10 keys (smart-chat, deepseek-chat, gpt-5.5), cleaned 10 expired
+- 🆕 Added 14 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 18 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 6 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 9 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 21 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 10 expired
+- 🆕 Added 15 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 8 expired
+- 🆕 Added 9 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 21 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 17 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 5 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 4 expired
+
+### 2026-05-05
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 13 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 9 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 20 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 17 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 8 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 19 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (smart-chat), cleaned 3 expired
+- 🆕 Added 3 keys (smart-chat), cleaned 1 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 10 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 4 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 18 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 20 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 4 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 8 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 19 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 8 expired
+
+### 2026-05-04
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 25 keys (gpt-5.5, claude-opus-4-7, gemini-2.5-flash, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 7 keys (deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 8 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat), cleaned 7 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 7 expired
+- 🆕 Added 20 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 13 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 8 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 25 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat, kimi-k2.5, text-embedding-3-small), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 10 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 13 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 9 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 14 keys (gpt-5.5, claude-opus-4-7, deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (gpt-5.5, deepseek-chat), cleaned 11 expired
+- 🆕 Added 6 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 17 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 2 expired
+- 🆕 Added 5 keys (gpt-5.5, deepseek-chat), cleaned 4 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 4 expired
+- 🆕 Added 7 keys (deepseek-chat, gpt-5.5), cleaned 1 expired
+- 🆕 Added 5 keys (gpt-5.5, deepseek-chat), cleaned 1 expired
+- 🆕 Added 19 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 22 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 12 expired
+
+### 2026-05-03
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 19 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 11 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 22 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 8 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 22 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 6 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 6 expired
+- 🆕 Added 3 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 4 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 3 expired
+- 🆕 Added 6 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (smart-chat, deepseek-chat), cleaned 2 expired
+- 🆕 Added 7 keys (smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 17 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 3 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 12 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 10 expired
+- 🆕 Added 8 keys (claude-opus-4-7, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 22 keys (gpt-5.5, claude-opus-4-7, smart-chat, deepseek-chat), cleaned 1 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 5 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 4 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 2 expired
+- 🆕 Added 2 keys (deepseek-chat), cleaned 3 expired
+- 🆕 Added 4 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 20 keys (gpt-5.5, claude-opus-4-7, deepseek-chat, smart-chat), cleaned 2 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 7 expired
+
+### 2026-05-02
+- 🆕 Added 5 keys (deepseek-chat), cleaned 8 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 6 expired
+- 🆕 Added 17 keys (gpt-5.5, claude-opus-4-7, deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 1 expired
+- 🆕 Added 1 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 5 keys (deepseek-chat), cleaned 7 expired
+- 🆕 Added 25 keys (gpt-5.5, claude-opus-4-7, gemini-2.5-flash, deepseek-chat, smart-chat), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 5 expired
+- 🆕 Added 0 keys (no new keys), cleaned 6 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 2 keys (claude-opus-4-7), cleaned 8 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 3 expired
+- 🆕 Added 5 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 1 keys (claude-opus-4-7), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 39 keys (text-embedding-3-small, kimi-k2.5, smart-chat, deepseek-chat, claude-opus-4-7, gpt-5.5, gemini-2.5-flash), cleaned 1 expired
+
+
+### 2026-04-26
+- 🆕 Added 0 keys (), cleaned 1 expired
+### 2026-04-29
+- 🆕 Added 3 keys (smart-chat, gpt-5.5, claude-sonnet-4-6), cleaned 1 expired
+
+### 2026-04-28
+- 🆕 Added 0 keys (no new keys), cleaned 3 expired
+- 🆕 Added 4 keys (smart-chat, gpt-5.5, claude-sonnet-4-6), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 2 expired
+- 🆕 Added 8 keys (deepseek-chat, smart-chat, gemini-2.5-flash, gpt-5.5, claude-sonnet-4-6), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 1 expired
+- 🆕 Added 0 keys (no new keys), cleaned 220 expired
+
+### 2026-04-25
+- 🆕 Added 6 keys (gpt-5.5, claude-sonnet-4-6, smart-chat), cleaned 0 expired
+- 🆕 Added 22 keys (claude-opus-4-7, deepseek-chat, gemini-2.5-flash, gemini-2.5-pro, gpt-5.5, kimi-k2.5 +2 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 8 expired
+- 🆕 Added 28 keys (claude-opus-4-7, claude-sonnet-4-6, deepseek-chat, deepseek-reasoner, embed-english-v3.0, gemini-2.5-flash +6 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 15 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 5 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 16 expired
+- 🆕 Added 36 keys (claude-opus-4-7, claude-sonnet-4-6, deepseek-chat, deepseek-reasoner, embed-english-v3.0, embed-multilingual-v3.0 +9 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-24
+- 🆕 Added 0 keys (), cleaned 7 expired
+- 🆕 Added 0 keys (), cleaned 15 expired
+- 🆕 Added 0 keys (), cleaned 6 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 16 expired
+- 🆕 Added 36 keys (claude-opus-4-7, claude-sonnet-4-6, deepseek-chat, deepseek-reasoner, embed-english-v3.0, embed-multilingual-v3.0 +9 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 5 expired
+- 🆕 Added 0 keys (), cleaned 9 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 19 keys (embed-english-v3.0, embed-multilingual-v3.0, gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gpt-5.5 +5 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-23
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 0 keys (), cleaned 23 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 19 keys (embed-english-v3.0, embed-multilingual-v3.0, gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gpt-5.5 +5 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-22
+- 🆕 Added 0 keys (), cleaned 5 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 20 expired
+- 🆕 Added 19 keys (embed-english-v3.0, embed-multilingual-v3.0, gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gpt-5.5 +5 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 10 keys (embed-english-v3.0, embed-multilingual-v3.0, gemini-2.5-flash, gemini-2.5-flash-lite, gemini-2.5-pro, gpt-5.5 +4 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 22 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-21
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 20 expired
+- 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 23 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-20
+- 🆕 Added 0 keys (), cleaned 23 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 1 expired
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 17 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +18 more), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 22 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-19
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 20 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+
+### 2026-04-18
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 0 keys (), cleaned 6 expired
+- 🆕 Added 0 keys (), cleaned 22 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 5 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 19 expired
+- 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-17
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 19 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+
+### 2026-04-16
+- 🆕 Added 0 keys (), cleaned 19 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 5 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 20 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-15
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 20 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-14
+- 🆕 Added 0 keys (), cleaned 11 expired
+- 🆕 Added 0 keys (), cleaned 6 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 22 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +17 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 23 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-13
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 23 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 19 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-12
+- 🆕 Added 18 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +11 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 20 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +17 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-11
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 19 expired
+- 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-10
+- 🆕 Added 0 keys (), cleaned 17 expired
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 19 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +12 more), cleaned 1 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-09
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 4 expired
+- 🆕 Added 0 keys (), cleaned 26 expired
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-08
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 17 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, devstral-latest, flagship-chat +10 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 19 expired
+- 🆕 Added 0 keys (), cleaned 22 expired
+- 🆕 Added 18 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +11 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 18 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+
+### 2026-04-07
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 24 expired
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+
+### 2026-04-06
+- 🆕 Added 0 keys (), cleaned 25 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 2 expired
+- 🆕 Added 0 keys (), cleaned 21 expired
+- 🆕 Added 1 keys (glm-5), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 1 expired
+- 🆕 Added 0 keys (), cleaned 3 expired
+- 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 21 expired
+- 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 23 expired
+- 🆕 Added 19 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +12 more), cleaned 19 expired
+- 🆕 Added 19 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +12 more), cleaned 19 expired
+
+### 2026-04-05
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +17 more), cleaned 26 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 26 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +17 more), cleaned 25 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 23 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 30 expired
+
+### 2026-04-04
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +18 more), cleaned 26 expired
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 22 expired
+- 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 21 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +17 more), cleaned 25 expired
+- 🆕 Added 18 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +11 more), cleaned 19 expired
+
+### 2026-04-03
+- 🆕 Added 15 keys (GLM-4.7, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, gemini-2.5-flash +8 more), cleaned 15 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 24 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 26 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 29 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 25 expired
+
+### 2026-04-02
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +17 more), cleaned 2 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +17 more), cleaned 49 expired
+- 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 23 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 23 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 28 expired
+
+### 2026-04-01
+- 🆕 Added 18 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +11 more), cleaned 19 expired
+- 🆕 Added 14 keys (GLM-4.7, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, gemini-2.5-flash +7 more), cleaned 15 expired
+- 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 22 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 30 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 27 expired
+
+### 2026-03-31
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 26 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 28 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 25 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 25 expired
+- 🆕 Added 24 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +17 more), cleaned 25 expired
+
+### 2026-03-30
+- 🆕 Added 23 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +16 more), cleaned 24 expired
+- 🆕 Added 20 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +13 more), cleaned 21 expired
+- 🆕 Added 15 keys (GLM-4.7, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, gemini-2.5-pro +8 more), cleaned 16 expired
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 18 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 29 expired
+
+### 2026-03-29
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 27 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 27 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 29 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +18 more), cleaned 26 expired
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +18 more), cleaned 26 expired
+
+### 2026-03-28
+- 🆕 Added 25 keys (GLM-4.7, codestral-latest, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +18 more), cleaned 26 expired
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 20 expired
+- 🆕 Added 22 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +15 more), cleaned 26 expired
+- 🆕 Added 17 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, devstral-latest, flagship-chat +10 more), cleaned 18 expired
+- 🆕 Added 19 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +12 more), cleaned 19 expired
+
+### 2026-03-27
+- 🆕 Added 21 keys (GLM-4.7, codestral-latest, dall-e-3, deepseek-chat, deepseek-reasoner, devstral-latest +14 more), cleaned 18 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 18 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 12 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 20 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 19 expired
+
+### 2026-03-26
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 21 expired
+- 🆕 Added 26 keys (GLM-4.7, codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat +19 more), cleaned 21 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 3 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 6 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 9 expired
+
+### 2026-03-25
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 19 expired
+- 🆕 Added 12 keys (codestral-latest, dall-e-3, deepseek-chat, devstral-latest, flagship-chat, gpt-5.5 +5 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+
+### 2026-03-24
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 7 keys (dall-e-3, deepseek-chat, gpt-5.5, gpt-5.5-mini, smart-chat, tts-1-hd), cleaned 2 expired
+
+### 2026-03-23
+- 🆕 Added 19 keys (codestral-latest, command-a-reasoning-08-2025, command-a-vision-07-2025, dall-e-3, deepseek-chat, deepseek-reasoner +12 more), cleaned 1 expired
+- 🆕 Added 6 keys (dall-e-3, deepseek-chat, gpt-5.5, gpt-5.5-mini, smart-chat, tts-1-hd), cleaned 1 expired
+- 🆕 Published 19 keys across 8 model families: GPT-5.5, DeepSeek, Mistral, Cohere, DALL-E 3, TTS, Embeddings
+- 📝 Project launched
+
+</details>
+
+
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nexttofly/free-llm-keys&type=Date)](https://star-history.com/#nexttofly/free-llm-keys&Date)
+
+---
+
+## 🤝 Contributing
+
+- 💬 [Discussions](../../discussions) — Feedback, model requests, use cases
+- 🐛 [Issues](../../issues) — Report expired keys or problems
+- 📖 [Contributing Guide](./CONTRIBUTING.md) — How to contribute
+- ⭐ **Star this repo** — Help more people discover free AI resources
+
+---
+
+## ⚠️ Disclaimer
+
+- Keys are platform-issued tokens for **learning and development** only
+- No SLA or uptime guarantee
+- Do not use for illegal purposes or production workloads
+- Maintainers reserve the right to adjust quotas or revoke keys at any time
+
+---
+
+## 📜 License
+
+[MIT License](./LICENSE)
+
+
